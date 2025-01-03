@@ -89,10 +89,48 @@ nav ul li a:hover{
     filter: grayscale(100%);
 }
 #intro_text{
-    margin: 120px;
+    margin: 50px;
 }
+
+/*Contact and Resume Links*/
+.hero_link {
+    position: relative;
+    top: 2rem; 
+    margin: 20px 20px 30px 50px;
+    text-decoration: none;
+    background-color: #333; 
+    color: white; 
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-size: 1rem; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+
+/* Hover effect */
+.hero_link:hover {
+    background-color: #555; 
+    color: #fff; 
+    transform: scale(1.05);
+}
+
 /* Icons */
 .icon{
-    margin-top: 10px;
-    font-size: 1.5em;
+    font-size: 2em;
+    position: relative;
+    top: 4rem;
+    margin: 0 0 0 3rem;
+    color: #333;
+    display: inline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon:hover{
+    color: #555;
+    transform: scale(1.2);
+}
+.intro_showcase{
+    margin-left: 5rem;
 }
