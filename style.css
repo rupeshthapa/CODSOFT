@@ -17,7 +17,7 @@ body{
     margin: 0 auto;
     flex: 1;
 }
-
+/* Navigation Bar */
 header{
     background-color: #333;
     height: 10vh;
@@ -37,7 +37,8 @@ header{
 }
 header h2{
     animation: slideInLeft 1.5s ease-out forwards;
-    opacity: 0
+    opacity: 0;
+    color: white;
 }
 .container{
     display: flex;
@@ -65,4 +66,33 @@ nav ul li a{
 }
 nav ul li a:hover{
     background-color: #555;
+}
+/* Hero Section */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.welcome-text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
+#home_img{
+    border-radius: 20px;
+    filter: grayscale(100%);
+}
+#intro_text{
+    margin: 120px;
+}
+/* Icons */
+.icon{
+    margin-top: 10px;
+    font-size: 1.5em;
 }
