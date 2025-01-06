@@ -67,8 +67,8 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #555;
 }
-/* Hero Section */
-.hero{
+/* About Section */
+.about{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,3 +134,40 @@ nav ul li a:hover{
 .intro_showcase{
     margin-left: 5rem;
 }
+
+/* Skills Section */
+
+#skills ul li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 4px solid #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  
+  #skills ul li:hover {
+    background: #e8f0fe;
+    border-left-color: #007bff;
+    transition: background 0.3s, border-color 0.3s;
+  }
+
+    /* Projects Section */
+    #projects ul li {
+        background: #ffffff;
+        margin: 10px 0;
+        padding: 15px;
+        border-left: 4px solid #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        list-style-type: none;
+      }
+      
+      #skills ul li:hover {
+        background: #e8f0fe;
+        border-left-color: #007bff;
+        transition: background 0.3s, border-color 0.3s;
+      }
+      
+  
