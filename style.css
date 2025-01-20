@@ -205,3 +205,15 @@ nav ul li a:hover{
         justify-content: center;
         margin: -20px 25px 0 0;
       }
+
+      /* Resume Section */
+      .resume{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
+      }
+      .resume-content{
+        margin-left: -50px;
+      }
