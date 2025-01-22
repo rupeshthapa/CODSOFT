@@ -79,6 +79,7 @@ nav ul li a:hover{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #333;
 }
 .intro{
     display: flex;
@@ -216,29 +217,63 @@ nav ul li a:hover{
         color: black;
 
       }
-      /* Icons */
-.icon{
-    font-size: 1em;
-    position: relative;
-    margin: 0 0 0 3rem;
-    /* color: #333; */
-    display: inline;
-    cursor: pointer;
-    transition: all 0.3s ease;
+/* About Page */
+.introduction, .background, .skills, .passion_motivation, .call_to_action{
+    background-color: #222;
+    border-radius: 10px;
 }
-.icon:hover{
-    color: #555;
-    transform: scale(1.2);
+.introduction h2,
+.background h2,
+.skills h2, .skills li,
+.passion_motivation h2,
+.call_to_action h2, p{
+    color: #ffffff;
+    list-style: none;
 }
-footer{
-    background-color: #333;
-    color: white;
+
+.container_about section, p, hr{
+    margin: 20px;
+}
+/* For aside */
+aside{
+    background-color: #222;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
     text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    color: #ffffff;
+   
 }
-footer p{
+aside ul {
+    list-style: none;
+}
+aside ul li{
     margin-bottom: 10px;
 }
+
+ /* Footer section */
+      /* Icons */
+      .icon{
+        font-size: 1em;
+        position: relative;
+        margin: 0 0 0 3rem;
+        display: inline;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .icon:hover{
+        color: #555;
+        transform: scale(1.2);
+    }
+    footer{
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    footer p{
+        margin-bottom: 10px;
+    }
