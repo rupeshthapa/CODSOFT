@@ -118,22 +118,6 @@ nav ul li a:hover{
     color: #fff; 
     transform: scale(1.05);
 }
-
-/* Icons */
-.icon{
-    font-size: 2em;
-    position: relative;
-    top: 4rem;
-    margin: 0 0 0 3rem;
-    color: #333;
-    display: inline;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.icon:hover{
-    color: #555;
-    transform: scale(1.2);
-}
 .intro_showcase{
     margin-left: 5rem;
 }
@@ -223,3 +207,38 @@ nav ul li a:hover{
         height: 10vh;
         width: 50%;
       }
+      .contact-content li{
+        list-style: none;
+      }
+      .contact-content a{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+
+      }
+      /* Icons */
+.icon{
+    font-size: 1em;
+    position: relative;
+    margin: 0 0 0 3rem;
+    /* color: #333; */
+    display: inline;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.icon:hover{
+    color: #555;
+    transform: scale(1.2);
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    margin-bottom: 10px;
+}
